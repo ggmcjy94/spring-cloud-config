@@ -1,0 +1,13 @@
+token:
+  expiration_time: 864000000
+  secret: user_token_ecommerce
+  
+gateway:
+  ip: 172.18.0.5
+
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password: '{cipher}624864a860dbdfcde3acf6b06f323066475a3d6fdd8543de717dc00b1a9912ea'
